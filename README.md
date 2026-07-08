@@ -29,9 +29,9 @@ This project helped reinforce several core Python concepts, including:
 
 ## Improvements Made
 
-While developing this project, an issue appeared when trying to loop through the file a second time. Once Python reaches the end of a file, it cannot continue reading unless the file pointer is reset.
+While I was developing this project, an issue appeared when I tried to loop through the file a second time. Once Python reaches the end of a file, it cannot continue reading unless the file pointer is reset.
 
-To solve this, the program was improved by storing each line in a list while reading the file. This allows the program to:
+To solve this, I imporved the program by storing each line in a list while reading the file. This allows the program to:
 
 1. Read the file only once.
 2. Count successful and failed login attempts.
@@ -68,4 +68,4 @@ Possible additions include:
 
 ## Purpose
 
-This project serves as a beginner-friendly exercise in Python file handling and log analysis. Although simple, it demonstrates many of the programming techniques used when processing real-world log files in cybersecurity and system administration.
+This project served to me as a beginner-friendly exercise in Python file handling and log analysis. Although simple, I have seen while diving into the code of websites that it demonstrates many of the programming techniques used when processing real-world log files in cybersecurity and system administration such as login requirements for websites or subscriber information on streaming services.
